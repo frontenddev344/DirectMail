@@ -756,3 +756,10 @@ img{
     left: 0;
     right: 0;
 }
+
+a.common_btn.trial_btn {
+    padding: 18px 22px;
+}
+a.common_btn.demo_btn {
+    padding: 18px 22px;
+}
