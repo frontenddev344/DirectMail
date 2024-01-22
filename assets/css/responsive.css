@@ -1,0 +1,187 @@
+@media screen and (max-width:1199px)
+{
+    h2 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    h3 {
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 30px;
+    }
+    .banner_content h1 {
+        font-size: 60px;
+        line-height: 80px;
+    }
+    .our_journey.section {
+        margin-top: 210px;
+    }
+    .crm_inner .row {
+        text-align: center;
+        display: block;
+    }
+    .crm_left {
+        margin-bottom: 40px;
+    }
+    .automation_left {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .automation_right {
+        text-align: center;
+    }
+    .img_right_auto {
+        text-align: center;
+    }
+    .dollar_saved .main_row_dollar {
+        display: block;
+    }
+}
+
+
+@media screen and (max-width:991px) {
+    .banner_content h1 {
+        font-size: 50px;
+        line-height: 65px;
+    }
+
+    h2 {
+        font-size: 35px;
+        font-weight: 600;
+        line-height: 35px;
+        margin-bottom: 18px;
+    }
+    
+    h3 {
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 30px;
+    }
+    
+    h4 {
+        font-size: 19px;
+        font-weight: 600;
+        line-height: 26px;
+    }
+    
+	.nav_header ul li {
+		display: inherit;
+		margin-left: 0px;
+        padding: 13px 6px;
+		background: transparent;
+		transition: all .5s linear;
+
+	}
+
+
+	.nav_header .logo {
+		float: none;
+	}
+
+	.nav_header ul.nav_ul {
+		display: block;
+		padding: 0px;
+		margin-right: 0px;
+		border-radius: 3px;
+		transition: max-height 0.2s ease-out;
+		max-height: 0;
+		overflow: hidden;
+		height: 500px;
+	}
+
+	.nav_header ul li a {
+		color: rgba(255, 255, 255, 1);
+	}
+
+	.btn-toggle {
+		display: block;
+	}
+
+	nav {
+		display: block;
+	}
+
+	.nav_header .top_login_signup {
+		text-align: start;
+	}
+
+	.nav_header .top_login_signup a {
+		margin-left: 0px;
+		margin-right: 20px;
+	}
+
+	.nav_header .top_login_desktop {
+		display: none;
+	}
+
+	.nav_header .top_login_mob {
+		display: block;
+        margin-top: 20px;
+	}
+    .get_started.section .row {
+        text-align: center;
+        display: block;
+    }
+}
+
+@media screen and (max-width:767px)
+{
+    .banner_content h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .section {
+        padding: 40px 0;
+    } 
+    .main_marketing_crm_row {
+        display: block;
+    }
+    .crm_left img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:575px)
+{
+    .banner_content p {
+        max-width: -webkit-fill-available;
+    }
+    .banner_content h1 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .banner_content h6 {
+        font-size: 18px;
+        line-height: 28px;
+        margin-bottom: 20px;
+    }
+    .demo_btn {
+        margin-left: 10px;
+    }
+    .top_main {
+        height: 85vh;
+    }
+    .our_journey.section {
+        margin-top: 100px;
+    }
+    .col-vs {
+        display: none;
+    }
+    .right_dollar_sec img {
+        max-width: 320px;
+    }
+    h2 {
+        font-size: 24px;
+        margin-bottom: 18px;
+    }
+    h4 {
+        font-size: 16px;
+        padding: 0 10px;
+    }
+    .left_started h3 {
+        font-size: 20px;
+        color: #fff;
+    }
+}
+
