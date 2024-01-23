@@ -961,3 +961,12 @@ body {
 }
 
 
+.my-slider {
+    padding: 0 20px;
+}
+.slick-next{
+	display: none!important;
+}
+.slick-prev{
+	display: none!important;
+}
