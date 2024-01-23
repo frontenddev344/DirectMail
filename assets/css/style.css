@@ -64,9 +64,13 @@ ul.nav_ul {
 }
 
 ul.nav_ul li {
-	list-style: none;
+    transition: all 0.4s;
+    list-style: none;
+	border-bottom: 1px solid transparent;
 }
-
+ul.nav_ul li:hover {
+    border-bottom: 1px solid #fff;
+}
 ul.nav_ul li a {
 	font-size: 16px;
 	line-height: 24px;
@@ -98,12 +102,25 @@ a.common_btn {
 .btn_login {
 	border: 1px solid #fff;
 	color: #fff;
+	transition: all 0.4s;
+}
+.btn_login:hover {
+    background: #fff;
+    color: #0f5ff4!important;
 }
 
 .btn_sign_up {
 	color: #1868FD;
 	background: #fff;
+	transition: all 0.4s;
+	border: 1px solid transparent;
 }
+.btn_sign_up:hover {
+	color: #fff!important;
+	background:transparent;
+	border: 1px solid #fff;
+}
+
 
 
 /* header start */
@@ -236,15 +253,28 @@ a.btn_sign_up:hover {
 .trial_btn {
 	background: #000;
 	color: #fff;
+	transition: all 0.4s;
 }
+.trial_btn:hover {
+	background: #fff;
+	color: #000!important;
+	text-decoration: unset;
+}
+
 
 .demo_btn {
 	margin-left: 20px;
 	background: transparent;
 	border: 1px solid #fff;
 	color: #ffff;
+	transition: all 0.4s;
 }
 
+.demo_btn:hover {
+background-color: #fff;
+color: #000;
+text-decoration: unset;
+}
 .banner_buttons {
 	margin-top: 30px;
 }
@@ -385,7 +415,16 @@ a.btn_sign_up:hover {
 	align-items: center;
 	justify-content: center;
 	margin-bottom: 30px;
+	transition: all 0.4s;
+	border: 1px solid transparent;
 }
+.get_started_btn:hover {
+	background-color: #fff;
+	color: #000!important;
+	border: 1px solid #0000006b;
+
+}
+
 
 .price_card ul {
 	padding-left: 0;
@@ -614,7 +653,14 @@ li::marker {
 	color: #fff;
 	font-weight: 600;
 	padding: 20px 40px;
+	transition: all 0.4s;
 }
+.btn_start.common_btn:hover {
+background-color: #fff;
+text-decoration: unset;
+color: #000;
+}
+
 
 .left_started h2 {
     margin: 0;
@@ -804,8 +850,13 @@ a.common_btn.demo_btn {
     border: 1px solid #0000006b;
     color: #000;
     font-weight: 600;
+	transition: all 0.4s;
 }
-
+.price_card.price_card_third .get_started_btn:hover{
+	background-color: #1868FD;
+	color: #fff!important;
+	border:unset
+}
 
 
 
@@ -930,11 +981,11 @@ a.common_btn.demo_btn {
     line-height: 70px;
     color: #000;
 }
-
+/* 
 .banner_buttons  a:hover, a:focus {
     color: #fff!important;
     text-decoration: unset!important;
-}
+} */
 
 .top_login_desktop .btn_sign_up {
     margin-left: 20px;
@@ -944,7 +995,8 @@ a.common_btn.demo_btn {
     position: fixed;
     top:0; left:0;
     width: 100%;
-	background: #0e5df2;
+	background-image: url(../images/header_bg.png);
+	background-size: cover;
 	z-index: 9999;
  }
 
