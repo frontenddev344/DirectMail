@@ -44,6 +44,8 @@ h4 {
 .puh2 {
 	font-size: 24px;
 	line-height: 36px;
+	color: #000;
+	font-weight: 500;
 }
 
 .container {
@@ -392,7 +394,9 @@ text-decoration: unset;
 
 .switch_btn_cls p {
 	color: #07C27D;
-	font-weight: 500;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
 }
 
 .price_card p {
@@ -462,7 +466,7 @@ text-decoration: unset;
 }
 
 .pricing_card_parent {
-	margin-top: 60px;
+	margin-top: 40px;
 }
 
 .crm.section h6 {
@@ -488,7 +492,7 @@ text-decoration: unset;
 	margin: 0 15px;
 	color: #fff;
 	background: #000000;
-	border-radius: 10px;
+	border-radius: 24px;
 	font-family:georgia;
 }
 .research_suggestion h4{
@@ -546,7 +550,7 @@ li::marker {
 .automation_left {
 	BACKGROUND: #000;
 	padding: 20px 20px 0px 20px;
-	border-radius: 10px;
+	border-radius: 24px;
 	color: #ffff;
 }
 
@@ -559,7 +563,7 @@ li::marker {
 .automation_right {
 	BACKGROUND: #000;
 	padding: 20px 0px 0px 20px;
-	border-radius: 10px;
+	border-radius: 24px;
 	color: #ffff;
 }
 
@@ -602,7 +606,7 @@ li::marker {
 	padding: 35px 20px;
 	text-align: center;
 	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-	border-radius: 10px;
+	border-radius: 24px;
 	height: 100%;
 	background: #fff;
 }
@@ -626,7 +630,7 @@ li::marker {
 .customer_card {
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     padding: 25px 20px;
-    border-radius: 10px;
+    border-radius: 24px;
     height: 100%;
     min-height: 370px;
     margin: 20px;
@@ -767,7 +771,7 @@ p.copy_right_para {
 	width: calc(100% / 5);
 	object-fit: cover;
 	overflow: hidden;
-	border-radius: 10px;
+	border-radius: 24px;
 	margin: 0 5px;
 	border: unset;
 	transition: all 0.4s cubic-bezier(0.32, 0, 0.67, 0);
@@ -977,7 +981,7 @@ a.common_btn.demo_btn {
 
 .get_start_row {
     background-color: #000;
-    border-radius: 15px;
+    border-radius: 24px;
 }
 
 .marketing_campaign.section h4 {
