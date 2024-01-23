@@ -1,6 +1,15 @@
+@font-face {
+	font-family:georgia;
+	src: url(../fonts/georgia.ttf);
+  }
+  @font-face {
+	font-family:signature_font;
+	src: url(../fonts/Phillips\ Muler\ Signature.ttf);
+  }
 body {
 	width: 100% !important;
 	overflow-x: hidden !important;
+	font-family: 'Inter', sans-serif;
 }
 
 .section {
@@ -12,18 +21,22 @@ p {
 	line-height: 24px;
 	font-weight: lighter;
 }
-
+h1{
+	font-family: 'Poppins', sans-serif!important;
+}
 h2 {
 	font-size: 50px;
 	font-weight: 600;
 	line-height: 55px;
 	margin-bottom: 24px;
+	font-family: 'Poppins', sans-serif!important;
 }
 
 h3 {
 	font-size: 32px;
 	font-weight: 600;
 	line-height: 35px;
+	font-family: 'Poppins', sans-serif!important;
 }
 
 h4 {
@@ -39,7 +52,7 @@ h4 {
 
 .container {
 	width: 100%;
-	max-width: 1440px;
+	max-width: 1320px;
 }
 
 .nav_logo a img {
@@ -77,7 +90,7 @@ a.common_btn {
 	padding: 10px 20px;
 	border-radius: 8px;
 	text-transform: capitalize;
-	font-weight: 500;
+	font-weight: 600;
 }
 
 .top_main {
@@ -257,13 +270,13 @@ a.btn_sign_up:hover {
 .journey_card {
 	border-radius: 20px;
 	text-align: center;
-	height: 270px;
 }
 
 .journey_card img {
 	border-radius: 20px;
 	width: 100%;
-    height: -webkit-fill-available;
+	height: 200px;
+	object-fit: cover;
 }
 
 .yellow_clr {
@@ -271,6 +284,7 @@ a.btn_sign_up:hover {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	height: 200px;
 }
 
 .yellow_clr h6 {
@@ -323,7 +337,8 @@ a.btn_sign_up:hover {
 }
 
 .right_dollar_sec img {
-	max-width: 500px;
+    margin: 20px 0;
+    max-width: 500px;
 }
 
 .dollar_saved .main_row_dollar {
@@ -336,8 +351,8 @@ a.btn_sign_up:hover {
 }
 
 .main_dollar_sec h3 {
-	margin: 40px 0;
-	color: #fff;
+	margin: 20px 0;
+    color: #fff;
 }
 
 .main_dollar_sec {
@@ -350,7 +365,7 @@ a.btn_sign_up:hover {
 }
 
 .price_card p {
-	font-size: 16px;
+	font-size: 15px;
 	line-height: 24px;
 	color: #545759;
 }
@@ -434,8 +449,12 @@ a.btn_sign_up:hover {
 	color: #fff;
 	background: #000000;
 	border-radius: 10px;
+	font-family:georgia;
 }
-
+.research_suggestion h4{
+	font-weight: 500;
+	font-size: 26px;
+}
 
 .print_on_demand h6 {
 	font-size: 16px;
@@ -563,17 +582,19 @@ li::marker {
 }
 
 .customer_card {
-	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-	padding: 30px 20px;
-	border-radius: 10px;
-	height: 100%;
-	min-height: 400px;
-	margin: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 25px 20px;
+    border-radius: 10px;
+    height: 100%;
+    min-height: 370px;
+    margin: 20px;
+    width: 100%;
 }
 
 .customer_card h6 {
 	font-size: 14px;
 	font-weight: 700;
+	color: #000;
 }
 
 .customer_card .c_bottom_para {
@@ -581,7 +602,7 @@ li::marker {
 }
 
 .customer_card .c_center_para {
-	margin: 30px 0;
+	margin: 25px 0;
 	color: #000;
 }
 
@@ -599,23 +620,22 @@ li::marker {
 }
 
 .left_started h2 {
-	color: #fff;
+    margin: 0;
+    color: #fff;
+    margin-top: 50px;
+    margin-bottom: 10px;
 }
-
 .left_started h3 {
-	font-weight: lighter;
-	font-size: 26px;
-	color: #fff;
+    font-weight: lighter;
+    font-size: 22px;
+    color: #fff;
+    margin: 0;
 }
 
-.get_started.section {
-	background: #000;
-}
+
 
 .get_started.section {
-	background: #000;
 	margin: 0 15px;
-	border-radius: 15px;
 }
 
 ul.footer_ul {
@@ -736,6 +756,7 @@ img{
 
 
 .main_marketing_crm_row {
+	margin-top: 40px;
     display: flex;
     flex-wrap: wrap;
     flex-basis: auto;
@@ -758,8 +779,166 @@ img{
 }
 
 a.common_btn.trial_btn {
-    padding: 18px 22px;
+    padding: 18px 24px;
 }
 a.common_btn.demo_btn {
-    padding: 18px 22px;
+    padding: 16px 24px;
+}
+
+.row.journey_row_second {
+    padding: 0px 120px;
+}
+
+.pricing.section .pricing_upper_h2 {
+    color: #000;
+    margin-bottom: 10px;
+}
+.color_blue {
+    color: #1868fd;
+}
+.price_card.price_card_third h3 {
+    color: #000;
+}
+.price_card_third h3 {
+    margin-bottom: 15px;
+}
+.price_card.price_card_third .get_started_btn {
+    background: transparent;
+    border: 1px solid #0000006b;
+    color: #000;
+    font-weight: 600;
+}
+
+
+
+
+
+/* switch toggle css */
+
+
+
+
+
+/* container for all of the switch elements 
+    - adjust "width" to fit the content accordingly 
+*/
+.switches-container {
+    width: 16rem;
+    position: relative;
+    display: flex;
+    padding: 0;
+    position: relative;
+	background: #E7E9EB;
+	line-height: 3.5rem;
+    border-radius: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+/* input (radio) for toggling. hidden - use labels for clicking on */
+.switches-container input {
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+}
+
+/* labels for the input (radio) boxes - something to click on */
+.switches-container label {
+    width: 50%;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    cursor: pointer;
+	color: #000;
+}
+
+/* switch highlighters wrapper (sliding left / right) 
+    - need wrapper to enable the even margins around the highlight box
+*/
+.switch-wrapper {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 50%;
+    padding: 0.15rem;
+    z-index: 3;
+    transition: transform .5s cubic-bezier(.77, 0, .175, 1);
+    /* transition: transform 1s; */
+}
+
+/* switch box highlighter */
+.switch {
+    border-radius: 3rem;
+    background: #000;
+    height: 100%;
+}
+
+/* switch box labels
+    - default setup
+    - toggle afterwards based on radio:checked status 
+*/
+.switch div {
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    display: block;
+	color: #fff;
+    transition: opacity .2s cubic-bezier(.77, 0, .175, 1) .125s;
+    will-change: opacity;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* slide the switch box from right to left */
+.switches-container input:nth-of-type(1):checked~.switch-wrapper {
+    transform: translateX(0%);
+}
+
+/* slide the switch box from left to right */
+.switches-container input:nth-of-type(2):checked~.switch-wrapper {
+    transform: translateX(100%);
+}
+
+/* toggle the switch box labels - first checkbox:checked - show first switch div */
+.switches-container input:nth-of-type(1):checked~.switch-wrapper .switch div:nth-of-type(1) {
+    opacity: 1;
+}
+
+/* toggle the switch box labels - second checkbox:checked - show second switch div */
+.switches-container input:nth-of-type(2):checked~.switch-wrapper .switch div:nth-of-type(2) {
+    opacity: 1;
+}
+
+
+.heading_with_para {
+    margin-bottom: 16px;
+}
+.marketing_campaign h2 {
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.get_start_row {
+    background-color: #000;
+    border-radius: 15px;
+}
+
+.marketing_campaign.section h4 {
+    font-family: signature_font;
+    font-size: 55px;
+    font-weight: 400;
+    line-height: 70px;
+    color: #000;
+}
+
+.banner_buttons  a:hover, a:focus {
+    color: #fff!important;
+    text-decoration: unset!important;
+}
+
+.top_login_desktop .btn_sign_up {
+    margin-left: 20px;
 }
