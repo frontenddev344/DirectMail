@@ -379,8 +379,10 @@ text-decoration: unset;
 }
 
 .main_dollar_sec h3 {
-	margin: 20px 0;
+    margin: 20px 0;
     color: #fff;
+    font-size: 22px;
+    font-weight: 700;
 }
 
 .main_dollar_sec {
@@ -1086,6 +1088,39 @@ a.common_btn.demo_btn {
   #button:active {
 	background-color: #555;
   } */
+
+
+
+
+  h3.dollar_bottom_h3 {
+    font-size: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   #button.show {
 	opacity: 1;
 	visibility: visible;
@@ -1095,6 +1130,8 @@ a.common_btn.demo_btn {
 	  margin: 30px;
 	}
   }
+
+
 body {
 	width: 100% !important;
 	overflow-x: hidden !important;
