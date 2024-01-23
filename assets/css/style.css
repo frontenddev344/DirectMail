@@ -23,7 +23,7 @@ h1{
 h2 {
 	font-size: 50px;
 	font-weight: 600;
-	line-height: 55px;
+	line-height: 60px;
 	margin-bottom: 24px;
 	font-family: 'Poppins', sans-serif!important;
 }
@@ -356,6 +356,7 @@ a.btn_sign_up:hover {
 
 .switch_btn_cls p {
 	color: #07C27D;
+	font-weight: 500;
 }
 
 .price_card p {
@@ -464,6 +465,7 @@ a.btn_sign_up:hover {
 .print_on_demand p {
 	color: #000;
 	font-size: 20px;
+	font-weight: 500;
 }
 
 .print_card img {
