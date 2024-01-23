@@ -231,11 +231,11 @@ a.btn_sign_up:hover {
 }
 
 .banner_content h1 {
-	font-size: 70px;
-	line-height: 96px;
-	font-weight: 600;
-	color: #fff;
-	margin: 20px 0;
+    font-size: 70px;
+    line-height: 80px;
+    font-weight: 600;
+    color: #fff;
+    margin: 20px 0;
 }
 
 .banner_content h6 {
@@ -281,6 +281,7 @@ text-decoration: unset;
 
 .main_img img {
 	width: 100%;
+	cursor: unset;
 }
 
 .main_img {
