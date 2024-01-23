@@ -1125,7 +1125,11 @@ a.common_btn.demo_btn {
     font-weight: 400;
 }
 
-
+.right_choice.section p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+}
 
 
 
