@@ -1100,7 +1100,14 @@ a.common_btn.demo_btn {
     font-size: 24px;
 }
 
-
+.heading_with_para h4 {
+    font-size: 18px;
+    font-weight: 700;
+}
+.heading_with_para p {
+    font-size: 16px;
+    font-weight: 400;
+}
 
 
 
