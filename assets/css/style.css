@@ -226,7 +226,7 @@ a.btn_sign_up:hover {
 	color: #fff;
 	padding: 8px;
 	font-size: 16px;
-	border-radius: 20px;
+	border-radius: 24px;
 	font-weight: lighter;
 	display: flex;
 	justify-content: center;
@@ -296,12 +296,12 @@ text-decoration: unset;
     margin-top: 350px;
 }
 .journey_card {
-	border-radius: 20px;
+	border-radius: 24px;
 	text-align: center;
 }
 
 .journey_card img {
-	border-radius: 20px;
+	border-radius: 24px;
 	width: 100%;
 	height: 200px;
 	object-fit: cover;
@@ -345,7 +345,7 @@ text-decoration: unset;
 .dollar_saved {
     background: #000;
     margin: 0 15px;
-    border-radius: 10px;
+    border-radius: 24px;
 }
 
 .dollar_saved h2 {
@@ -461,7 +461,7 @@ text-decoration: unset;
 .price_card {
 	padding: 30px;
 	background-color: #E8F7FF;
-	border-radius: 10px;
+	border-radius: 24px;
     min-height: 735px;
 }
 
