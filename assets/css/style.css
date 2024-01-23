@@ -235,7 +235,8 @@ a.btn_sign_up:hover {
     line-height: 80px;
     font-weight: 600;
     color: #fff;
-    margin: 20px 0;
+	margin-top: 40px;
+	margin-bottom: 0;
 }
 
 .banner_content h6 {
@@ -243,7 +244,7 @@ a.btn_sign_up:hover {
 	line-height: 36px;
 	color: #fff;
 	font-weight: lighter;
-	margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .banner_content {
@@ -276,7 +277,7 @@ color: #000;
 text-decoration: unset;
 }
 .banner_buttons {
-	margin-top: 30px;
+    margin-top: 50px;
 }
 
 .main_img img {
@@ -286,7 +287,7 @@ text-decoration: unset;
 
 .main_img {
 	text-align: center;
-	margin-top: 40px;
+	margin-top: 60px;
 }
 
 .our_journey.section {
@@ -992,25 +993,45 @@ a.common_btn.demo_btn {
     margin-left: 20px;
 }
 /* sticky css */
-.fixed {
-    position: fixed;
-    top:0; left:0;
-    width: 100%;
+
+/* Style the header */
+
+
+/* 
+
+.header {
 	background-image: url(../images/header_bg.png);
 	background-size: cover;
 	z-index: 9999;
- }
+  }
+
+*/
+
+  /* Page content */
+
+  /* .content {
+	padding: 16px;
+  } */
+  
+  /* The sticky class is added to the header with JS when it reaches its scroll position */
+
+  /* .sticky {
+	position: fixed;
+	top: 0;
+	width: 100%
+  } */
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+
+
+  /* .sticky + .banner_content {
+	padding-top: 102px;
+  } */
+
+
 
  .crm_left img {
     width: 100%;
-}
-
-
-
-body {
-	width: 100% !important;
-	overflow-x: hidden !important;
-	font-family: 'Inter', sans-serif;
 }
 
 
@@ -1023,3 +1044,60 @@ body {
 .slick-prev{
 	display: none!important;
 }
+
+
+
+/* top up btn scroll */
+#button {
+    display: inline-block;
+    background-color: #fff;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s, 
+	  opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+    border: 1px solid #000;
+    display: flex!important;
+    align-items: center;
+    justify-content: center;
+}
+  /* #button::after {
+	content: "\f077";
+	font-family: FontAwesome;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 2em;
+	line-height: 50px;
+	color: #fff;
+  } */
+  /* #button:hover {
+	cursor: pointer;
+	background-color: #333;
+  }
+  #button:active {
+	background-color: #555;
+  } */
+  #button.show {
+	opacity: 1;
+	visibility: visible;
+  }
+  @media (min-width: 500px) {
+	#button {
+	  margin: 30px;
+	}
+  }
+body {
+	width: 100% !important;
+	overflow-x: hidden !important;
+	font-family: 'Inter', sans-serif;
+}
+
+
+

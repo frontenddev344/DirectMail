@@ -72,10 +72,42 @@ window.addEventListener("click", () => {
 })
 
 // sticky js
-$(window).scroll(function(){
-   var sticky = $('.sticky'),
-       scroll = $(window).scrollTop();
- 
-   if (scroll >= 0) sticky.addClass('fixed');
-   else sticky.removeClass('fixed');
- });
+
+// When the user scrolls the page, execute myFunction
+// window.onscroll = function() {myFunction()};
+
+// Get the header
+// var header = document.getElementById("myHeader");
+
+// Get the offset position of the navbar
+// var sticky = header.offsetTop;
+
+// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+
+// function myFunction() {
+//   if (window.pageYOffset > sticky) {
+//     header.classList.add("sticky");
+//   } else {
+//     header.classList.remove("sticky");
+//   }
+// }
+
+
+
+// top scroll btn
+
+var btn = $('#button');
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 300) {
+    btn.addClass('show');
+  } else {
+    btn.removeClass('show');
+  }
+});
+
+btn.on('click', function(e) {
+  e.preventDefault();
+  $('html, body').animate({scrollTop:0}, '300');
+});
+
