@@ -6,11 +6,7 @@
 	font-family:signature_font;
 	src: url(../fonts/Phillips\ Muler\ Signature.ttf);
   }
-body {
-	width: 100% !important;
-	overflow-x: hidden !important;
-	font-family: 'Inter', sans-serif;
-}
+
 
 .section {
 	padding: 60px 0;
@@ -114,14 +110,13 @@ a.common_btn {
 
 
 nav {
-	overflow: auto;
-	padding: 20px;
-	width: 100%;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	background: #0e5df2;
-	z-index: 99999;
+    overflow: auto;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
 }
 
 .logo {
@@ -235,10 +230,9 @@ a.btn_sign_up:hover {
 }
 
 .banner_content {
-    padding-top: 60px;
-	text-align: center;
+    padding-top: 150px;
+    text-align: center;
 }
-
 .trial_btn {
 	background: #000;
 	color: #fff;
@@ -365,7 +359,7 @@ a.btn_sign_up:hover {
 }
 
 .price_card p {
-	font-size: 15px;
+	font-size: 14px;
 	line-height: 24px;
 	color: #545759;
 }
@@ -942,3 +936,19 @@ a.common_btn.demo_btn {
 .top_login_desktop .btn_sign_up {
     margin-left: 20px;
 }
+/* sticky css */
+.fixed {
+    position: fixed;
+    top:0; left:0;
+    width: 100%;
+	background: #0e5df2;
+	z-index: 9999;
+ }
+
+body {
+	width: 100% !important;
+	overflow-x: hidden !important;
+	font-family: 'Inter', sans-serif;
+}
+
+

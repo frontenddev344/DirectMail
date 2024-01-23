@@ -63,3 +63,12 @@ images.forEach(function (image, index) {
 window.addEventListener("click", () => {
    clearActiveImage()
 })
+
+// sticky js
+$(window).scroll(function(){
+   var sticky = $('.sticky'),
+       scroll = $(window).scrollTop();
+ 
+   if (scroll >= 0) sticky.addClass('fixed');
+   else sticky.removeClass('fixed');
+ });
