@@ -677,18 +677,19 @@ color: #000;
 
 
 .left_started h2 {
+    font-size: 48px;
     margin: 0;
     color: #fff;
     margin-top: 50px;
     margin-bottom: 10px;
+    font-weight: 700;
 }
 .left_started h3 {
-    font-weight: lighter;
-    font-size: 22px;
+    font-size: 24px;
     color: #fff;
     margin: 0;
+    font-weight: 400;
 }
-
 
 
 .get_started.section {
