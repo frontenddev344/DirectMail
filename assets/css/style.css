@@ -129,12 +129,16 @@ a.common_btn {
 
 
 nav {
+	position: fixed;
     overflow: auto;
     padding: 20px;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-image: url(../images/header_bg.png);
+	background-size: cover;
+    z-index: 999999;
 
 }
 
@@ -250,7 +254,7 @@ a.btn_sign_up:hover {
 }
 
 .banner_content {
-    padding-top: 60px;
+    padding-top: 150px;
     text-align: center;
 }
 .trial_btn {
@@ -537,6 +541,7 @@ text-decoration: unset;
 
 .print_demand_cards {
 	padding-top: 60px;
+	padding-left: 80px;
 }
 
 li::marker {
@@ -1134,7 +1139,9 @@ a.common_btn.demo_btn {
 {
 	margin: 0!important;
 }
-
+.second_crm_cp {
+    margin-top: 60px;
+}
 
 
 

@@ -48,6 +48,11 @@
         height: 200px;
         object-fit: none;
     }
+    .print_demand_cards {
+        padding-top: 60px;
+        padding-left: 0px;
+    }
+    
 }
 
 
@@ -143,6 +148,14 @@
     .row.journey_row_second {
         padding:0px;
     }
+    .left_started h2 {
+        font-size: 30px;
+    }
+    .get_started.section {
+        background: #000;
+        margin: 0 15px;
+        border-radius: 24px;
+    }
 }
 
 @media screen and (max-width:767px)
@@ -161,6 +174,7 @@
     .crm_left img {
         width: 100%;
     }
+
 }
 
 @media screen and (max-width:575px)
@@ -184,7 +198,7 @@
         height: 85vh;
     }
     .our_journey.section {
-        margin-top: 0;
+        margin-top: 60px;
     }
     .col-vs {
         display: none;
@@ -216,6 +230,10 @@
     a.common_btn.demo_btn {
         padding: 11px 15px;
         font-size: 12px;
+    }
+    .automation {
+
+        padding: 10px!important;
     }
 }
 
