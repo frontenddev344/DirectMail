@@ -1130,6 +1130,10 @@ a.common_btn.demo_btn {
     font-size: 16px;
     color: #000;
 }
+.button_start_col
+{
+	margin: 0!important;
+}
 
 
 
