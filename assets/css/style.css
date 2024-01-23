@@ -573,6 +573,7 @@ li::marker {
 .customer_images {
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 }
 
 .customer_card {
@@ -944,6 +945,10 @@ a.common_btn.demo_btn {
 	background: #0e5df2;
 	z-index: 9999;
  }
+
+
+
+
 
 body {
 	width: 100% !important;
