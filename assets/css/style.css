@@ -412,7 +412,7 @@ a.btn_sign_up:hover {
 	padding: 30px;
 	background-color: #E8F7FF;
 	border-radius: 10px;
-	min-height: 700px;
+    min-height: 735px;
 }
 
 .pricing_card_parent {
@@ -946,7 +946,9 @@ a.common_btn.demo_btn {
 	z-index: 9999;
  }
 
-
+ .crm_left img {
+    width: 100%;
+}
 
 
 
