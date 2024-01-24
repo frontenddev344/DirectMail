@@ -499,6 +499,7 @@ text-decoration: unset;
 .research_suggestion.section p {
     font-size: 14px;
     font-weight: 500;
+	margin: 0;
 }
 
 .print_on_demand h6 {
@@ -513,14 +514,16 @@ text-decoration: unset;
 }
 
 .print_on_demand p {
-	color: #000;
-	font-size: 20px;
-	font-weight: 500;
+    color: #000;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
 }
 
 .print_card img {
 	width: 100%;
 	margin-bottom: 10px;
+	border-radius: 24px;
 }
 
 .print_card p {
@@ -815,7 +818,7 @@ img{
     align-items: center;
 }
 .col.marketing_crm_col {
-    margin: 0  15px;
+	margin-bottom: 30px;
 }
 
 
@@ -987,7 +990,7 @@ a.common_btn.demo_btn {
 }
 .marketing_campaign h2 {
     color: #000;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .get_start_row {
