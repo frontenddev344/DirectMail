@@ -98,7 +98,7 @@ a.common_btn {
 .top_main {
 	background-image: url(../images/frame_bg_banner.png);
 	background-size: cover;
-	height: 100vh;
+	/* height: 100vh; */
 }
 
 .btn_login {
