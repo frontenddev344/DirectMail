@@ -775,7 +775,8 @@ p.copy_right_para {
 }
 
 .container_accord_img:has(.img.active) .img:not(.active) {
-	filter: grayscale(100%)
+	filter: grayscale(100%);
+	object-fit: cover;
 }
 
 .container_accord_img img {
