@@ -55,7 +55,7 @@ h4 {
 
 .nav_logo a img {
 	width: 100%;
-	max-width: 200px;
+	max-width: 240px;
 }
 
 ul.nav_ul {
@@ -233,7 +233,7 @@ a.btn_sign_up:hover {
 
 .banner_content h1 {
     font-size: 80px;
-    line-height: 80px;
+	line-height: 90px;
     font-weight: 600;
     color: #fff;
 	margin-top: 40px;
@@ -288,12 +288,9 @@ text-decoration: unset;
 
 .main_img {
 	text-align: center;
-	margin-top: 60px;
 }
 
-.our_journey.section {
-    margin-top: 350px;
-}
+
 .journey_card {
 	border-radius: 24px;
 	text-align: center;
@@ -497,6 +494,7 @@ text-decoration: unset;
 .research_suggestion h4{
 	font-weight: 400;
     font-size: 32px;
+	margin: 20px 0;
 }
 .research_suggestion.section p {
     font-size: 14px;
@@ -536,7 +534,7 @@ text-decoration: unset;
 
 .print_demand_cards {
 	padding-top: 60px;
-	padding-left: 80px;
+    padding-left: 100px;
 }
 
 li::marker {
@@ -1155,9 +1153,16 @@ header.sticky .btn_sign_up:hover {
 	border: 1px solid #0f5ff4;
 }
 
+.main_img_wrapper {
+	margin-top: -320px;
+}
+.our_journey.section {
+    padding-top: 120px;
+}
 
-
-
+.print_on_demand.section {
+    padding: 80px 0;
+}
 
 
 
