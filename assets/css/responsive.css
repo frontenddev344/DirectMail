@@ -333,4 +333,7 @@
     .btn_start.common_btn {
         padding: 15px 30px;
     }
+    .container_accord_img img {
+        object-fit: cover;
+    }
 }
