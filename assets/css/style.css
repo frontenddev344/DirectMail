@@ -781,7 +781,7 @@ p.copy_right_para {
 .container_accord_img img {
 	height: 700px;
 	width: calc(100% / 5);
-	object-fit: cover;
+	object-fit: fill;
 	overflow: hidden;
 	border-radius: 24px;
 	margin: 0 5px;
