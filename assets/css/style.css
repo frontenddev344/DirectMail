@@ -129,17 +129,12 @@ a.common_btn {
 
 
 nav {
-	position: fixed;
     overflow: auto;
     padding: 20px;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-image: url(../images/header_bg.png);
-	background-size: cover;
-    z-index: 999999;
-
 }
 
 .logo {
@@ -1021,42 +1016,18 @@ a.common_btn.demo_btn {
 .top_login_desktop .btn_sign_up {
     margin-left: 20px;
 }
-/* sticky css */
-
-/* Style the header */
 
 
-/* 
+ sticky css 
+
+
+
 
 .header {
 	background-image: url(../images/header_bg.png);
 	background-size: cover;
 	z-index: 9999;
   }
-
-*/
-
-  /* Page content */
-
-  /* .content {
-	padding: 16px;
-  } */
-  
-  /* The sticky class is added to the header with JS when it reaches its scroll position */
-
-  /* .sticky {
-	position: fixed;
-	top: 0;
-	width: 100%
-  } */
-  
-  /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
-
-
-  /* .sticky + .banner_content {
-	padding-top: 102px;
-  } */
-
 
 
  .crm_left img {
@@ -1097,22 +1068,6 @@ a.common_btn.demo_btn {
     align-items: center;
     justify-content: center;
 }
-  /* #button::after {
-	content: "\f077";
-	font-family: FontAwesome;
-	font-weight: normal;
-	font-style: normal;
-	font-size: 2em;
-	line-height: 50px;
-	color: #fff;
-  } */
-  /* #button:hover {
-	cursor: pointer;
-	background-color: #333;
-  }
-  #button:active {
-	background-color: #555;
-  } */
 
 
 
@@ -1142,6 +1097,71 @@ a.common_btn.demo_btn {
 .second_crm_cp {
     margin-top: 60px;
 }
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: background-color 0.5s, padding 1s;
+	background-image: url(../images/header_bg.png);
+	background-size: cover;
+  }
+  
+  header.sticky {
+	background-color:#fff;
+	padding: 0;
+	z-index: 9999;
+	background-image: unset;
+  }
+
+
+  header.sticky  ul.nav_ul li a {
+    color: #1868FD;
+}
+header.sticky  .btn_login {
+    border: 1px solid #1868fd;
+    color: #1763f3;
+}
+
+header.sticky  .btn_sign_up {
+    color: #fff;
+    background: #1868fd;
+}
+.blue_logo{
+	display: none;
+}
+
+header.sticky .blue_logo{
+	display: block;
+}
+header.sticky .white_logo{
+	display: none;
+}
+header.sticky .btn-toggle span {
+    background: #1868fd;
+}
+header.sticky ul.nav_ul li:hover {
+    border-bottom: 1px solid #1868fd;
+}
+
+header.sticky .btn_login:hover {
+    background: #0f5ff4;
+    color: #fff!important;
+}
+
+header.sticky .btn_sign_up:hover {
+	color: #0f5ff4!important;
+	background:transparent;
+	border: 1px solid #0f5ff4;
+}
+
+
+
+
+
+
+
+
 
 
 
