@@ -245,6 +245,7 @@
     }
     .container_accord_img img {
         object-fit: cover;
+        height: 500px;
     }
     .desktop_cara{
         display: none;
@@ -252,6 +253,10 @@
     .mob_cara{
         display: block;
     }
+    .container_accord_img {
+        height: 500px;
+    }
+
 }
 
 @media screen and (max-width:575px) {
