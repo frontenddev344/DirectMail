@@ -176,10 +176,6 @@ ul li a {
 	display: none;
 }
 
-.btn-toggle:hover {
-    background: #0e5df2;
-    border-radius: 5px;
-}
 .btn-toggle:hover span {
     background: #fff;
     transform: unset;
@@ -359,12 +355,12 @@ text-decoration: unset;
 
 .left_dollar_sec img {
 	width: 100%;
-	max-width: 450px;
+	max-width: 100%;
 }
 
 .right_dollar_sec img {
     margin: 20px 0;
-    max-width: 500px;
+    max-width: 100%;
 }
 
 .dollar_saved .main_row_dollar {
@@ -403,7 +399,7 @@ text-decoration: unset;
 
 .price_card h2 {
 	color: #000;
-	margin-bottom: 10px;
+	margin-bottom: 15px;
 }
 
 .price_card h2 span {
@@ -458,7 +454,7 @@ text-decoration: unset;
 	padding: 30px;
 	background-color: #E8F7FF;
 	border-radius: 24px;
-    min-height: 735px;
+	min-height: 755px;
 }
 
 .pricing_card_parent {
@@ -1167,7 +1163,9 @@ header.sticky .btn_sign_up:hover {
     padding: 80px 0;
 }
 
-
+.automation .print_demand_cards {
+    padding: 0;
+}
 
 
 

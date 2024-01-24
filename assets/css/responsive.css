@@ -1,7 +1,7 @@
 @media screen and (max-width:1199px) {
     h2 {
         font-size: 40px;
-        line-height: 40px;
+        line-height: 50px;
     }
 
     h3 {
@@ -15,9 +15,6 @@
         line-height: 80px;
     }
 
-    .our_journey.section {
-        margin-top: 270px;
-    }
 
     .crm_inner .row {
         text-align: center;
@@ -64,7 +61,32 @@
         padding-top: 60px;
         padding-left: 0px;
     }
-
+    .nav_logo a img {
+        max-width: 210px;
+    }
+    .banner_content h6 {
+        font-size: 22px;
+    }
+    .left_dollar_sec img {
+        max-width: 534px;
+    }
+    .research_suggestion h4 {
+        font-size: 24px;
+    }
+    .puh2 {
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .print_on_demand p {
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .print_on_demand p {
+        margin-bottom: 20px;
+    }
+    .make_different.section {
+        padding-top: 0;
+    }
 }
 
 
@@ -165,7 +187,8 @@
     }
 
     .our_journey.section {
-        margin-top: 150px;
+        margin-top: 0px;
+        padding-top: 60px;
     }
 
     .research_suggestion h4 {
@@ -184,6 +207,13 @@
         background: #000;
         margin: 0 15px;
         border-radius: 24px;
+    }
+    .research_suggestion h4 {
+        font-size: 18px;
+    }
+    .left_started h2 {
+        margin-top: 0px;
+        margin-bottom: 10px;
     }
 }
 
@@ -204,6 +234,12 @@
     .crm_left img {
         width: 100%;
     }
+    .top_main {
+        height: 90vh;
+    }
+    .main_img_wrapper {
+        margin-top: -250px;
+    }
 
 }
 
@@ -213,7 +249,7 @@
     }
 
     .banner_content h1 {
-        font-size: 28px;
+        font-size: 26px;
         line-height: 40px;
     }
 
@@ -228,7 +264,7 @@
     }
 
     .top_main {
-        height: 85vh;
+        height: 70vh;
     }
 
     .our_journey.section {
@@ -239,9 +275,7 @@
         display: none;
     }
 
-    .right_dollar_sec img {
-        max-width: 320px;
-    }
+ 
 
     h2 {
         font-size: 24px;
@@ -277,5 +311,23 @@
     .automation {
 
         padding: 10px !important;
+    }
+    .main_img_wrapper {
+        margin-top: -70px;
+    }
+    .our_journey.section {
+        margin-top: 0;
+    }
+    .left_started h2 {
+        font-size: 26px;
+    }
+    .left_started h3 {
+        font-size: 16px;
+    }
+    .left_started {
+        padding-left: 0;
+    }
+    .btn_start.common_btn {
+        padding: 15px 30px;
     }
 }
