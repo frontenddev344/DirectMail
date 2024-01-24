@@ -243,7 +243,9 @@
     .popup-content {
         width: 100%;
     }
-
+    .container_accord_img img {
+        object-fit: cover;
+    }
 }
 
 @media screen and (max-width:575px) {
@@ -333,7 +335,5 @@
     .btn_start.common_btn {
         padding: 15px 30px;
     }
-    .container_accord_img img {
-        object-fit: cover;
-    }
+
 }
