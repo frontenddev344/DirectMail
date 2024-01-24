@@ -1293,7 +1293,9 @@ div#why_crm {
     justify-content: center;
     align-items: center;
 }
-
+.mob_cara{
+	display: none;
+}
 
 
 

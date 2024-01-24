@@ -246,6 +246,12 @@
     .container_accord_img img {
         object-fit: cover;
     }
+    .desktop_cara{
+        display: none;
+    }
+    .mob_cara{
+        display: block;
+    }
 }
 
 @media screen and (max-width:575px) {
