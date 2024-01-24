@@ -47,7 +47,30 @@ $(document).ready(function () {
 
 //   accordian image
 
-const images = document.querySelectorAll(".img")
+// const images = document.querySelectorAll(".img")
+
+// function clearActiveImage() {
+//    images.forEach(function (image) {
+//       image.classList.remove("active");
+//    });
+// }
+
+// images.forEach(function (image, index) {
+//    image.onclick = function () {
+//       event.stopPropagation() //important to not call the clearActiveImage() on every click
+//       if (images[index].classList.contains("active")) {
+//          images[index].classList.remove("active")
+//       } else {
+//          clearActiveImage(index)
+//          images[index].classList.add("active")
+//       }
+//    }
+// })
+
+// window.addEventListener("click", () => {
+//    clearActiveImage()
+// })
+const images = document.querySelectorAll(".img");
 
 function clearActiveImage() {
    images.forEach(function (image) {
@@ -56,20 +79,31 @@ function clearActiveImage() {
 }
 
 images.forEach(function (image, index) {
-   image.onclick = function () {
-      event.stopPropagation() //important to not call the clearActiveImage() on every click
-      if (images[index].classList.contains("active")) {
-         images[index].classList.remove("active")
-      } else {
-         clearActiveImage(index)
-         images[index].classList.add("active")
+   image.onclick = function (event) {
+      event.stopPropagation(); // Important to not call the clearActiveImage() on every click
+      if (!images[index].classList.contains("active")) {
+         clearActiveImage();
+         images[index].classList.add("active");
       }
-   }
-})
+   };
+});
 
-window.addEventListener("click", () => {
-   clearActiveImage()
-})
+document.body.addEventListener("click", () => {
+   clearActiveImage();
+   // Initialize the first image as active after clicking on the body
+   if (images.length > 0) {
+      images[0].classList.add("active");
+   }
+});
+
+
+// Initialize the first image as active
+if (images.length > 0) {
+   images[0].classList.add("active");
+}
+
+
+
 
 // sticky js
 window.onscroll = function () {
