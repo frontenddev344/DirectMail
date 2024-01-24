@@ -1295,6 +1295,12 @@ div#why_crm {
     display: flex;
     justify-content: center;
     align-items: center;
+	transform: all 0.5s;
+}
+.submit_btn:hover {
+    background: #fff;
+    border: 1px solid #1868fd;
+    color: #1868fd;
 }
 .mob_cara{
 	display: none;
