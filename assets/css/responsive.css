@@ -240,6 +240,9 @@
     .main_img_wrapper {
         margin-top: -250px;
     }
+    .popup-content {
+        width: 100%;
+    }
 
 }
 
