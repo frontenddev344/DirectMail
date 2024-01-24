@@ -235,7 +235,7 @@
         width: 100%;
     }
     .top_main {
-        /* height: 90vh; */
+        padding: 0px 0 230px;
     }
     .main_img_wrapper {
         margin-top: -170px;
@@ -280,7 +280,7 @@
     }
 
     .top_main {
-        /* height: 80vh; */
+        padding: 0px 0 120px;
     }
 
     .our_journey.section {
