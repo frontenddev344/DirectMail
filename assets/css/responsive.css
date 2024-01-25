@@ -256,7 +256,12 @@
     .container_accord_img {
         height: 500px;
     }
-
+    .slick-initialized .slick-slide {
+        margin: 0 0px 0 0;
+    }
+    .customer_card {
+        width: auto;
+    }
 }
 
 @media screen and (max-width:575px) {
@@ -267,6 +272,7 @@
     .banner_content h1 {
         font-size: 26px;
         line-height: 40px;
+        margin-top: 30px;
     }
 
     .banner_content h6 {
@@ -350,5 +356,48 @@
         font-size: 16px;
         padding: 0 5px;
     }
+    .banner_buttons {
+        margin-top: 30px;
+    }
+    .switches-container {
+        margin-top: 20px;
+    }
+    div#price {
+        padding-bottom: 0;
+    }
+    .heading_with_para p {
+        font-size: 15px;
+    }
+    .crm_inner {
+        padding-top: 30px;
+    }
+    .crm_left {
+        margin-bottom: 0px;
+    }
+    .print_on_demand p {
+        font-size: 16px;
+        line-height: 26px;
+        padding: 0 6px;
+    }
+    .print_demand_cards {
+        padding-top: 30px;
 
+    }
+    .slick-slider {
+        text-align: center;;
+    }
+    .second_crm_cp {
+        margin-top: 30px;
+    }
+    .right_choice h2 {
+        margin-bottom: 20px;
+    }
+    div#why_crm {
+        text-align: center;
+
+    }
+    .my-slider {
+        padding: 0 10px;
+    }
+    
 }
