@@ -1343,6 +1343,9 @@ div#why_crm {
   .slide_inner.active {
 	flex: 1 1 55%;
 	background-size: cover;
+	display: flex;
+    justify-content: center;
+	text-align: center;
   }
   .slide_inner.active .slide__text {
 	opacity: 1;
