@@ -304,6 +304,10 @@
 .print_demand_cards {
     padding-top: 30px;
 }
+.get_started.section {
+
+    margin-top: 20px;
+}
 }
 
 @media screen and (max-width:575px) {
