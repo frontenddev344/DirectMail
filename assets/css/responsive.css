@@ -308,6 +308,19 @@
 
     margin-top: 20px;
 }
+.dollar_saved h2 {
+    padding: 0 20px;
+
+}
+.crm {
+    text-align: center;
+}
+.marketing_campaign {
+    text-align: center;
+}
+.right_started {
+    margin-bottom: 20px;
+}
 }
 
 @media screen and (max-width:575px) {

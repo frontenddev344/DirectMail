@@ -183,3 +183,20 @@ items.forEach((item, i) => {
 });
 
 
+
+
+
+
+
+
+$(document).ready(function() {
+   $('.li_nav').click(function() {
+       $('.nav_ul')
+       .css('max-height','0px')
+      //  .siblings()
+      //  .css('backgroundColor','#ffffff');
+
+      //  $('#submit_button').removeAttr('disabled');
+      //  $('#number').removeAttr('disabled');
+   });
+});

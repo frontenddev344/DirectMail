@@ -1406,6 +1406,9 @@ ul.footer_ul_links li a {
     text-decoration: none;
 	color: #000;
 }
+ul.footer_ul_links li {
+    margin: 0 15px;
+}
 
   #button.show {
 	opacity: 1;
