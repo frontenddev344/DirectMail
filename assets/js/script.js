@@ -142,13 +142,15 @@ btn.on('click', function(e) {
 
 // toggle close
 
-
-$(document).ready(function() {
-   $('.li_nav').click(function() {
-       $('.nav_ul')
-       .css('max-height','0px')
+// if (window.matchMedia('(max-width:991px)').matches) {
+   $(document).ready(function() {
+      $('.li_nav').click(function() {
+          $('.nav_ul')
+          .css('max-height','0px')
+      });
    });
-});
+// 
+
 
 
 
