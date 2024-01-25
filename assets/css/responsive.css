@@ -215,6 +215,8 @@
         margin-top: 0px;
         margin-bottom: 10px;
     }
+
+
 }
 
 @media screen and (max-width:767px) {
@@ -320,6 +322,10 @@
 }
 .right_started {
     margin-bottom: 20px;
+}
+h3.we_make_mob {
+    margin-bottom: 20px;
+    padding: 0 20px;
 }
 }
 
@@ -445,6 +451,7 @@
     }
     .right_choice h2 {
         margin-bottom: 20px;
+        padding: 0 20px;
     }
     div#why_crm {
         text-align: center;
@@ -452,6 +459,18 @@
     }
     .my-slider {
         padding: 0 10px;
+    }
+    .marketing_campaign h2 {
+
+        padding: 0 20px;
+    }
+    .print_on_demand h2 {
+        padding: 0 20px;
+
+    }
+    .pricing.section .pricing_upper_h2 {
+        padding: 0 20px;
+      
     }
     
 }
