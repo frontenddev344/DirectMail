@@ -183,14 +183,3 @@ items.forEach((item, i) => {
 });
 
 
-
-// on click smooth scroll
-
-$('.js-anchor-link').click(function(e){
-   e.preventDefault();
-   var target = $($(this).class('.li_nav'));
-   if(target.length){
-     var scrollTo = target.offset().top;
-     $('body, html').animate({scrollTop: scrollTo+'px'}, 800);
-   }
- });
