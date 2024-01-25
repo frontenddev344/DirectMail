@@ -140,27 +140,6 @@ btn.on('click', function(e) {
 
 
 
-// toggle close
-
-
-   // $(document).ready(function() {
-   //    $('.li_nav').click(function() {
-   //        $('.nav_ul')
-   //        .css('max-height','0px')
-   //    });
-   // });
-   $(document).ready(function(){
-      $('.li_nav').click(function(){
-          // Change CSS properties on click
-          $('.nav_ul').css({
-              'max-height': '0',
-            //   'max-height': '355px'
-              // Add more properties as needed
-          });
-      });
-  });
-
-
 
 
 
