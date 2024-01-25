@@ -262,6 +262,17 @@
     .customer_card {
         width: auto;
     }
+ .make_different {
+    display: none;
+ }
+ .images_sec{
+    display: flex;
+ }
+ .slider_make
+ {
+   display:flex;
+ }
+
 }
 
 @media screen and (max-width:575px) {

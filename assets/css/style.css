@@ -1305,11 +1305,74 @@ div#why_crm {
 .mob_cara{
 	display: none;
 }
+.for_first_image
+{
+	display: none;
+}
 
+/* mob slide we make */
+.slider_make {
+	display: flex;
+  }
+  
+  .slide_inner {
+    position: relative;
+    flex: 1 1 0;
+    height: 550px;
+    margin: 10px;
+    transition: all 2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    background-position: center center;
+    background-size: auto, auto;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+  .slide__text {
+    position: absolute;
+    bottom: 5%;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    opacity: 0;
+    transform: scale(0);
+    transition: opacity 0s;
+  }
+  
+  .slide_inner.active {
+	flex: 1 1 40%;
+	background-size: cover;
+  }
+  .slide_inner.active .slide__text {
+	opacity: 1;
+	transform: scale(1);
+	transition: opacity 2s;
+  }
+  .name {
+    font-weight: 700;
+    color: #ffff;
+    text-shadow: unset;
+    margin-bottom: 12px;
+    font-size: 24px;
+}
+  
+.description {
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
 
-
-
-
+.slide_inner.third_inner  .name{
+    color: #000;
+}
+.slide_inner.third_inner  .description
+{
+    color: #000;
+}
+  /* mob slide we make */
+  .slider_make
+  {
+	display: none;
+  }
 
 
 

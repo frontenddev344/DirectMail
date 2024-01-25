@@ -142,6 +142,7 @@ btn.on('click', function(e) {
 
 // toggle close
 
+ 
 $(document).ready(function() {
    $('.li_nav').click(function() {
        $('.nav_ul')
@@ -150,3 +151,42 @@ $(document).ready(function() {
 });
 
 
+
+const panels = document.querySelectorAll('.panel');
+
+panels.forEach(panel => {
+    panel.addEventListener('click', () => {
+        removeActiveClasses();
+        panel.classList.add('active');
+    });
+});
+
+function removeActiveClasses () {
+    panels.forEach(panel => {
+        panel.classList.remove('active');
+    })
+}
+
+
+
+const items = document.querySelectorAll(".slide_inner");
+
+const expand = (item, i) => {
+  //remove active from all the other items
+  items.forEach((it, ind) => {
+    if (i === ind) return;
+    it.clicked = false;
+    it.classList.remove("active");
+  });
+  //toggle the item clicked
+  item.clicked = !item.clicked;
+  //add the active class to the element clicked
+  if(item.clicked) {
+    item.classList.add("active");
+  }
+};
+
+items.forEach((item, i) => {
+  item.clicked = false;
+  item.addEventListener("click", () => expand(item, i));
+});
