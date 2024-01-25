@@ -724,7 +724,6 @@ ul.footer_ul li {
 p.copy_right_para {
 	text-align: center;
 	color: #9BA3AE;
-	margin-top: 29px;
 }
 
 .nav_header .top_login_mob {
@@ -1377,9 +1376,26 @@ div#why_crm {
   {
 	display: none;
   }
-
-
-
+  ul.footer_ul_links {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 20px 0;
+    text-transform: capitalize;
+    color: #000;
+    font-weight: 500;
+}
+ul.footer_ul_links li {
+    font-size: 16px;
+    line-height: 26px;
+}
+.footer.section {
+    padding: 40px 0;
+}
+ul.footer_ul_links li a {
+    text-decoration: none;
+	color: #000;
+}
 
   #button.show {
 	opacity: 1;
