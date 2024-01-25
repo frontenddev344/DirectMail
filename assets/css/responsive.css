@@ -92,10 +92,10 @@
 
 @media screen and (max-width:991px) {
     header.sticky ul.nav_ul li:hover {
-        border: transparent;
+        border-bottom:1px solid transparent;
     }
     ul.nav_ul li:hover {
-        border: transparent;
+        border-bottom:1px solid transparent;
     }
     header {
         background-image: unset;
