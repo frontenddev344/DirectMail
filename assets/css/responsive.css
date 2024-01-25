@@ -110,7 +110,7 @@
     h2 {
         font-size: 35px;
         font-weight: 600;
-        line-height: 35px;
+        line-height: 40px;
         margin-bottom: 18px;
     }
 
@@ -224,7 +224,7 @@
     }
 
     .section {
-        padding: 40px 0;
+        padding: 20px 0;
     }
 
     .main_marketing_crm_row {
@@ -272,7 +272,38 @@
  {
    display:flex;
  }
+ p.puh2 {
+    font-size: 16px;
 
+}
+
+.price_card {
+
+    min-height: 700px;
+}
+.switches-container {
+    margin-top: 20px;
+}
+.section br{
+    display: none!important;
+} 
+.puh2{
+    padding: 0 20px;
+}
+.crm_left img {
+
+    margin-bottom: 0px;
+}
+.research_suggestion {
+
+    padding: 20px 10px!important;
+}
+.crm_inner {
+    padding-top: 30px;
+}
+.print_demand_cards {
+    padding-top: 30px;
+}
 }
 
 @media screen and (max-width:575px) {
@@ -363,16 +394,11 @@
     .btn_start.common_btn {
         padding: 15px 30px;
     }
-    p.puh2 {
-        font-size: 16px;
-        padding: 0 5px;
-    }
+   
     .banner_buttons {
         margin-top: 30px;
     }
-    .switches-container {
-        margin-top: 20px;
-    }
+ 
     div#price {
         padding-bottom: 0;
     }
