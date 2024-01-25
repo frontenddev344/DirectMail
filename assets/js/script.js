@@ -138,3 +138,15 @@ btn.on('click', function(e) {
 
 //pop up form
 
+
+
+// toggle close
+
+$(document).ready(function() {
+   $('.li_nav').click(function() {
+       $('.nav_ul')
+       .css('max-height','0px')
+   });
+});
+
+
