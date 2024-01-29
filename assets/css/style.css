@@ -30,6 +30,7 @@ h2 {
 	line-height: 70px;
 	margin-bottom: 24px;
 	font-family: 'Poppins', sans-serif!important;
+	text-transform: capitalize;
 }
 
 h3 {
@@ -37,6 +38,7 @@ h3 {
 	font-weight: 600;
 	line-height: 35px;
 	font-family: 'Poppins', sans-serif!important;
+	text-transform: capitalize;
 }
 
 h4 {
