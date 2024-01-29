@@ -361,7 +361,9 @@ h3.we_make_mob {
 .our_journey.section h2 br {
     display: block!important;
 }
-
+.col.crm_col_top h2 br {
+    display: block!important;
+}
 }
 
 @media screen and (max-width:575px) {
@@ -510,8 +512,14 @@ h3.we_make_mob {
     ul.footer_ul_links li {
         font-size: 14px;
         line-height: 20px;
+        margin-bottom: 5px;
     }
     .price_card h2 {
         font-size: 28px;
+    }
+
+    ul.footer_ul_links {
+        flex-direction: column;
+        text-align: center;
     }
 }
