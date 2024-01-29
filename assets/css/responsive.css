@@ -535,4 +535,7 @@ h3.we_make_mob {
         flex-direction: column;
         text-align: center;
     }
+    .slide_inner {
+        height: 400px;
+    }
 }
