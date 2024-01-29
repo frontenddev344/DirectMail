@@ -108,6 +108,9 @@
     .auto_img img {
         height: auto;
     }
+    .crm_right {
+        text-align: center;
+    }
 }
 
 

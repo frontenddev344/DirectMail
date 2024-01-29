@@ -179,7 +179,7 @@ ul li a {
 	width: 40px;
 	padding: 5px;
 	float: right;
-	margin-top: -46px;
+    margin-top: -35px;
 	border: none;
 	outline: none;
 	transition: all .5s ease;
@@ -1402,6 +1402,7 @@ div#why_crm {
     padding-right: 15px;
 }
 .crm_right {
+    text-align: left;
     padding-left: 15px;
 }
 .we_make_mobile{
@@ -1441,6 +1442,10 @@ ul.footer_ul_links li a {
 }
 ul.footer_ul_links li {
     margin: 0 15px;
+}
+
+.slick-dots li button:before {
+    font-size: 8px!important;
 }
 
   #button.show {
