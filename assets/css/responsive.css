@@ -264,6 +264,9 @@
     {
         display: none;
     }
+    .banner_content h6 br {
+        display: none;
+    }
 
 }
 
