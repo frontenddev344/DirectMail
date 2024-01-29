@@ -311,7 +311,7 @@
 
 .price_card {
 
-    min-height: 700px;
+    min-height: auto;
 }
 .switches-container {
     margin-top: 20px;
