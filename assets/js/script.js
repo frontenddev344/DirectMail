@@ -1,13 +1,32 @@
-var menuUL = document.getElementsByTagName("ul");
-var heightOful = menuUL[0].scrollHeight;
-var btnToggle = document.getElementsByClassName("btn-toggle");
-btnToggle[0].addEventListener("click", function () {
-   if (menuUL[0].style.maxHeight) {
-      menuUL[0].style.maxHeight = null;
-   } else {
-      menuUL[0].style.maxHeight = menuUL[0].scrollHeight + "px";
-   }
+// var menuUL = document.getElementsByTagName("ul");
+// var heightOful = menuUL[0].scrollHeight;
+// var btnToggle = document.getElementsByClassName("btn-toggle");
+// btnToggle[0].addEventListener("click", function () {
+//    if (menuUL[0].style.maxHeight) {
+//       menuUL[0].style.maxHeight = null;
+//    } else {
+//       menuUL[0].style.maxHeight = menuUL[0].scrollHeight + "px";
+//    }
+// });
+
+$(document).ready(function (){
+ $(".btn-toggle").click(function(){
+   $("#toggle_bar").slideToggle();
+ });
 });
+
+$(document).ready(function (){
+   $(".li_nav").click(function(){
+     $("#toggle_bar").slideToggle();
+   });
+  });
+
+
+
+
+
+
+
 
 // slick
 
@@ -189,14 +208,17 @@ items.forEach((item, i) => {
 
 
 
-$(document).ready(function() {
-   $('.li_nav').click(function() {
-       $('.nav_ul')
-       .css('max-height','0px')
-      //  .siblings()
-      //  .css('backgroundColor','#ffffff');
 
-      //  $('#submit_button').removeAttr('disabled');
-      //  $('#number').removeAttr('disabled');
-   });
-});
+
+
+// $(document).ready(function() {
+//    $('.li_nav').click(function() {
+//        $('.nav_ul')
+//        .css('max-height','0px')
+//       //  .siblings()
+//       //  .css('backgroundColor','#ffffff');
+
+//       //  $('#submit_button').removeAttr('disabled');
+//       //  $('#number').removeAttr('disabled');
+//    });
+// });

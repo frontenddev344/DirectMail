@@ -102,6 +102,9 @@
     .crm_right {
         padding-left: 0px;
     }
+    .print_card img {
+        width: 100%;
+    }
 }
 
 
@@ -160,10 +163,7 @@
         padding: 0px;
         margin-right: 0px;
         border-radius: 3px;
-        transition: max-height 0.2s ease-out;
-        max-height: 0;
-        overflow: hidden;
-        height: 500px;
+        /* transition: 0.s ease-out; */
     }
 
     .nav_header ul li a {
