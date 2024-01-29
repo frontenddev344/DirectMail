@@ -197,22 +197,21 @@ items.forEach((item, i) => {
 
 
 
+$(document).ready(function() {
+   // Click event on the button with ID 'changeContentButton'
+   $("#yearly_id").click(function() {
+     // Change the content of the div with ID 'myDiv'
+     $(".bottom_price_h2.business_price").html("$100");
+     $(".bottom_price_h2.Agency_price").html("$120");
+     
+   });
+ });
 
-
-
-
-
-
-
-
-// $(document).ready(function() {
-//    $('.li_nav').click(function() {
-//        $('.nav_ul')
-//        .css('max-height','0px')
-//       //  .siblings()
-//       //  .css('backgroundColor','#ffffff');
-
-//       //  $('#submit_button').removeAttr('disabled');
-//       //  $('#number').removeAttr('disabled');
-//    });
-// });
+ $(document).ready(function() {
+   // Click event on the button with ID 'changeContentButton'
+   $("#montly_id").click(function() {
+     // Change the content of the div with ID 'myDiv'
+     $(".bottom_price_h2.business_price").html("$99 <span>/mo</span>");
+     $(".bottom_price_h2.Agency_price").html("$399<span>/mo</span>");
+   });
+ });
