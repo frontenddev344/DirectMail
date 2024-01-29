@@ -10,6 +10,7 @@
 // });
 
 $(document).ready(function (){
+   $("#toggle_bar").hide();
  $(".btn-toggle").click(function(){
    $("#toggle_bar").slideToggle();
  });
