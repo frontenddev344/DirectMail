@@ -59,7 +59,7 @@ h4 {
 
 .nav_logo a img {
 	width: 100%;
-	max-width: 240px;
+    max-width: 190px;
 }
 
 ul.nav_ul {
@@ -1378,6 +1378,12 @@ div#why_crm {
 .slide_inner.third_inner  .description
 {
     color: #000;
+}
+.crm_left {
+    padding-right: 15px;
+}
+.crm_right {
+    padding-left: 15px;
 }
   /* mob slide we make */
   .slider_make

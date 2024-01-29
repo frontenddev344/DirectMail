@@ -96,6 +96,12 @@
     .get_started.section .row {
         padding: 40px 20px;
     }
+    .crm_left {
+        padding-right: 0px;
+    }
+    .crm_right {
+        padding-left: 0px;
+    }
 }
 
 
