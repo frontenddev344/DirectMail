@@ -358,6 +358,9 @@ h3.we_make_mob {
     margin-bottom: 20px;
     padding: 0 20px;
 }
+.our_journey.section h2 br {
+    display: block!important;
+}
 }
 
 @media screen and (max-width:575px) {

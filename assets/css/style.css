@@ -1403,6 +1403,11 @@ div#why_crm {
 h3.we_make_desk {
     margin-bottom: 40px;
 }
+
+.our_journey.section h2 br {
+    display: none;
+}
+
   /* mob slide we make */
 
   ul.footer_ul_links {
