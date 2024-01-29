@@ -201,8 +201,8 @@ $(document).ready(function() {
    // Click event on the button with ID 'changeContentButton'
    $("#yearly_id").click(function() {
      // Change the content of the div with ID 'myDiv'
-     $(".bottom_price_h2.business_price").html("$100");
-     $(".bottom_price_h2.Agency_price").html("$120");
+     $("#business_price").html("$100");
+     $("#Agency_price").html("$120");
      
    });
  });
@@ -211,7 +211,7 @@ $(document).ready(function() {
    // Click event on the button with ID 'changeContentButton'
    $("#montly_id").click(function() {
      // Change the content of the div with ID 'myDiv'
-     $(".bottom_price_h2.business_price").html("$99 <span>/mo</span>");
-     $(".bottom_price_h2.Agency_price").html("$399<span>/mo</span>");
+     $("#business_price").html("$99 <span>/mo</span>");
+     $("#Agency_price").html("$399<span>/mo</span>");
    });
  });

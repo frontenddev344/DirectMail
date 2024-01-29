@@ -105,6 +105,9 @@
     .print_card img {
         width: 100%;
     }
+    .auto_img img {
+        height: auto;
+    }
 }
 
 
