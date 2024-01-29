@@ -1423,7 +1423,8 @@ h3.we_make_desk {
     display: flex;
     justify-content: center;
     padding: 0;
-    margin: 20px 0;
+    margin-top: 16px;
+    margin-bottom: 10px;
     text-transform: capitalize;
     color: #000;
     font-weight: 500;
