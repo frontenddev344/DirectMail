@@ -23,7 +23,7 @@ $(document).ready(function () {
       autoplay: true,
       responsive: [
          {
-            breakpoint: 1199,
+            breakpoint: 1299,
             settings: {
                slidesToShow: 2,
             }

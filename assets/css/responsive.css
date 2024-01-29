@@ -87,6 +87,15 @@
     .make_different.section {
         padding-top: 0;
     }
+    .left_started h3 {
+        font-size: 20px;
+    }
+    .left_started h2 {
+        font-size: 40px;
+    }
+    .get_started.section .row {
+        padding: 40px 20px;
+    }
 }
 
 
@@ -215,7 +224,16 @@
         margin-top: 0px;
         margin-bottom: 10px;
     }
-
+    .right_started {
+        margin-top: 40px;
+        text-align: center;
+    }
+    .get_started.section .row {
+        padding: 0;
+    }
+    .customer_card {
+        min-height:auto;
+    }
 
 }
 
@@ -309,6 +327,7 @@
 .get_started.section {
 
     margin-top: 20px;
+    padding: 20px 0;
 }
 .dollar_saved h2 {
     padding: 0 20px;
@@ -471,6 +490,10 @@ h3.we_make_mob {
     .pricing.section .pricing_upper_h2 {
         padding: 0 20px;
       
+    }
+    ul.footer_ul_links li {
+        font-size: 14px;
+        line-height: 20px;
     }
     
 }

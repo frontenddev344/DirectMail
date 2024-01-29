@@ -524,7 +524,7 @@ text-decoration: unset;
 }
 
 .print_card img {
-	height: 320px;
+	height:auto;
 	object-fit: cover;
     width:95%;
     margin-bottom: 10px;
@@ -649,7 +649,7 @@ li::marker {
     padding: 25px 20px;
     border-radius: 24px;
     height: 100%;
-    min-height: 370px;
+	min-height: 335px;
     margin: 20px;
     width: 100%;
 }
@@ -670,10 +670,11 @@ li::marker {
 }
 
 .get_started.section .row {
-	display: flex;
-	align-items: center;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+	justify-content:space-between;
 }
-
 
 .btn_start.common_btn {
 	background: #1868FD;
@@ -691,10 +692,7 @@ color: #000;
 
 .left_started h2 {
     font-size: 48px;
-    margin: 0;
     color: #fff;
-    margin-top: 50px;
-    margin-bottom: 10px;
     font-weight: 700;
 }
 .left_started h3 {
@@ -839,8 +837,8 @@ p.copy_right_para {
     margin-bottom: 40px;
     color: #000;
 }
-.left_started {
-    padding-left: 30px;
+.right_started {
+    text-align: end;
 }
 
 .slick-dots {
@@ -1415,6 +1413,16 @@ ul.footer_ul_links li {
 	opacity: 1;
 	visibility: visible;
   }
+
+  .left_started_column
+  {
+	margin-bottom: 0;
+  }
+  .left_started_column h2
+  {
+	margin: 0;
+  }
+
   @media (min-width: 500px) {
 	#button {
 	  margin: 30px;
