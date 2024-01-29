@@ -240,6 +240,17 @@
     .customer_card {
         min-height:auto;
     }
+    .we_make_mobile{
+        display: block;
+    }
+      .we_make_mobile .slider_make{
+        display: flex;
+    }
+    .we_make_desktop
+
+    {
+        display: none;
+    }
 
 }
 
@@ -288,16 +299,11 @@
     .customer_card {
         width: auto;
     }
- .make_different {
-    display: none;
- }
+
  .images_sec{
     display: flex;
  }
- .slider_make
- {
-   display:flex;
- }
+
  p.puh2 {
     font-size: 16px;
 

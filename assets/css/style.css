@@ -1339,7 +1339,19 @@ div#why_crm {
     transform: scale(0);
     transition: opacity 0s;
   }
-  
+  .we_make_desktop .slide_inner.active
+
+  {
+	display: block;
+  }
+
+  .we_make_desktop  .description {
+    margin-top: 15px;
+    font-size: 20px;
+}
+.we_make_desktop  .name {
+    font-size: 30px;
+}
   .slide_inner.active {
 	flex: 1 1 55%;
 	background-size: cover;
@@ -1385,11 +1397,14 @@ div#why_crm {
 .crm_right {
     padding-left: 15px;
 }
-  /* mob slide we make */
-  .slider_make
-  {
+.we_make_mobile{
 	display: none;
-  }
+}
+h3.we_make_desk {
+    margin-bottom: 40px;
+}
+  /* mob slide we make */
+
   ul.footer_ul_links {
     display: flex;
     justify-content: center;
