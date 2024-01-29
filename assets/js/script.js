@@ -22,12 +22,6 @@ $(document).ready(function (){
   });
 
 
-
-
-
-
-
-
 // slick
 
 $(document).ready(function () {

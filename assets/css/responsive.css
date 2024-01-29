@@ -109,6 +109,13 @@
 
 
 @media screen and (max-width:991px) {
+    #desktop_ul{
+        display: none;
+    }
+    #toggle_bar{
+        display: block;
+    }
+    
     header.sticky ul.nav_ul li:hover {
         border-bottom:1px solid transparent;
     }

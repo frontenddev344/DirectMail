@@ -68,6 +68,10 @@ ul.nav_ul {
 	padding: 0;
 	margin-bottom: 0;
 }
+#toggle_bar{
+	display: none;
+}
+
 
 ul.nav_ul li {
     transition: all 0.4s;
