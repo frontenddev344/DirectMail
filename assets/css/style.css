@@ -1005,6 +1005,7 @@ a.common_btn.demo_btn {
 .get_start_row {
     background-color: #000;
     border-radius: 24px;
+	max-width: 1290px;
 }
 
 .marketing_campaign.section h4 {
