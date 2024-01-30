@@ -678,7 +678,7 @@ li::marker {
 .get_started.section .row {
     display: flex;
     align-items: center;
-    padding: 40px;
+	padding: 40px 120px;
 	justify-content:space-between;
 }
 
@@ -1430,8 +1430,8 @@ h3.we_make_desk {
     font-weight: 500;
 }
 ul.footer_ul_links li {
-    font-size: 16px;
-    line-height: 26px;
+    font-size: 15px;
+    line-height: 22px;
 }
 .footer.section {
     padding: 40px 0;
