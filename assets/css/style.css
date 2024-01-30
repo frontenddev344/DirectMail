@@ -707,9 +707,9 @@ color: #000;
     font-weight: 400;
 }
 
-
 .get_started.section {
-	margin: 0 15px;
+    padding: 0;
+    margin: 0 15px;
 }
 
 ul.footer_ul {
@@ -1186,7 +1186,9 @@ div#why_crm {
 }
 
 
-
+.our-customers h2 {
+    margin-bottom: 40px;
+}
 
 
 
