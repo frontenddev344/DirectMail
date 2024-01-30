@@ -402,7 +402,9 @@ h3.we_make_mob {
     display: block!important;
 }
 .print_on_demand {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+    padding: 40px 0px;
+
 }
 }
 
@@ -473,8 +475,8 @@ h3.we_make_mob {
     }
 
     .automation {
-
-        padding: 10px !important;
+        padding: 20px 10px !important;
+        margin-bottom: 40px;
     }
     .main_img_wrapper {
         margin-top: -70px;
@@ -571,6 +573,9 @@ h3.we_make_mob {
     .popup-content {
 
         border-radius: 0;
+    }
+    .print_on_demand p {
+        margin-bottom: 0px;
     }
 
 }
