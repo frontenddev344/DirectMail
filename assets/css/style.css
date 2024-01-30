@@ -677,8 +677,8 @@ li::marker {
 .get_started.section .row {
     display: flex;
     align-items: center;
-	padding: 40px 120px;
-	justify-content:space-between;
+	padding: 40px;
+	justify-content: space-around;
 }
 
 .btn_start.common_btn {
