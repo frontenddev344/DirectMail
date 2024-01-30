@@ -1464,7 +1464,14 @@ ul.footer_ul_links li {
   div#price {
     padding-bottom: 0;
 }
-
+.our-customers .wrapper .container {
+    padding-left: 0;
+    padding-right: 0;
+}
+.form_design
+{
+padding-top:60px;
+}
   @media (min-width: 500px) {
 	#button {
 	  margin: 30px;
