@@ -118,6 +118,17 @@
     .crm_right {
         text-align: center;
     }
+    .right_visual_pc
+    {
+        display: none;
+    }
+    .right_visual_mob{
+        display: block;
+    }
+    .right_visual_mob_parent {
+        display: flex;
+        justify-content: center;
+    }
 }
 
 
@@ -136,7 +147,7 @@
         border-bottom:1px solid transparent;
     }
     header {
-        background-image: unset;
+        background-image: unset!important;
         background-color: #0f5ff4;
     }
 
@@ -275,7 +286,9 @@
     .banner_content h6 br {
         display: none;
     }
-
+    h3.we_make_mob {
+        margin-bottom: 30px;
+    }
 }
 
 @media screen and (max-width:767px) {
@@ -387,6 +400,9 @@ h3.we_make_mob {
 }
 .col.crm_col_top h2 br {
     display: block!important;
+}
+.print_on_demand {
+    margin-bottom: 30px;
 }
 }
 
@@ -548,5 +564,8 @@ h3.we_make_mob {
     }
     .slide_inner {
         height: 400px;
+    }
+    .our_journey.section {
+        padding-top: 30px;
     }
 }
