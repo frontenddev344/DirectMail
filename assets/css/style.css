@@ -804,10 +804,6 @@ p.copy_right_para {
 }
 
 
-/* img{
-    cursor: pointer;
-} */
-
 .price_card.price_card_third {
     background-color: #fff;
     border: 1px solid #00000047;
@@ -892,17 +888,8 @@ a.common_btn.demo_btn {
 }
 
 
-
-
 /* switch toggle css */
 
-
-
-
-
-/* container for all of the switch elements 
-    - adjust "width" to fit the content accordingly 
-*/
 .switches-container {
     width: 16rem;
     position: relative;
@@ -1029,11 +1016,6 @@ a.common_btn.demo_btn {
 }
 
 
- sticky css 
-
-
-
-
 .header {
 	background-image: url(../images/header_bg.png);
 	background-size: cover;
@@ -1080,9 +1062,6 @@ a.common_btn.demo_btn {
     justify-content: center;
 	cursor: pointer;
 }
-
-
-
 
   h3.dollar_bottom_h3 {
     font-size: 24px;
@@ -1190,16 +1169,6 @@ div#why_crm {
 .our-customers h2 {
     margin-bottom: 40px;
 }
-
-
-
-
-
-
-
-
-
-
 
 /* popup form css */
 .popup-link{

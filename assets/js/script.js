@@ -1,13 +1,3 @@
-// var menuUL = document.getElementsByTagName("ul");
-// var heightOful = menuUL[0].scrollHeight;
-// var btnToggle = document.getElementsByClassName("btn-toggle");
-// btnToggle[0].addEventListener("click", function () {
-//    if (menuUL[0].style.maxHeight) {
-//       menuUL[0].style.maxHeight = null;
-//    } else {
-//       menuUL[0].style.maxHeight = menuUL[0].scrollHeight + "px";
-//    }
-// });
 
 $(document).ready(function (){
    $("#toggle_bar").hide();
@@ -58,32 +48,6 @@ $(document).ready(function () {
    });
 });
 
-
-//   accordian image
-
-// const images = document.querySelectorAll(".img")
-
-// function clearActiveImage() {
-//    images.forEach(function (image) {
-//       image.classList.remove("active");
-//    });
-// }
-
-// images.forEach(function (image, index) {
-//    image.onclick = function () {
-//       event.stopPropagation() //important to not call the clearActiveImage() on every click
-//       if (images[index].classList.contains("active")) {
-//          images[index].classList.remove("active")
-//       } else {
-//          clearActiveImage(index)
-//          images[index].classList.add("active")
-//       }
-//    }
-// })
-
-// window.addEventListener("click", () => {
-//    clearActiveImage()
-// })
 const images = document.querySelectorAll(".img");
 
 function clearActiveImage() {
@@ -152,11 +116,6 @@ btn.on('click', function(e) {
 
 //pop up form
 
-
-
-
-
-
 const panels = document.querySelectorAll('.panel');
 
 panels.forEach(panel => {
@@ -202,8 +161,8 @@ $(document).ready(function() {
    // Click event on the button with ID 'changeContentButton'
    $("#yearly_id").click(function() {
      // Change the content of the div with ID 'myDiv'
-     $("#business_price").html("$100");
-     $("#Agency_price").html("$120");
+     $("#business_price").html("$100<span>/ye</span>");
+     $("#Agency_price").html("$120<span>/ye</span>");
      
    });
  });
