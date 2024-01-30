@@ -568,4 +568,12 @@ h3.we_make_mob {
     .our_journey.section {
         padding-top: 30px;
     }
+    .field {
+        margin-bottom: 10px;
+    }
+    .actions {
+        margin-top: 6px;
+        margin-bottom: 18px;
+        padding: 5px 0px;
+    }
 }
