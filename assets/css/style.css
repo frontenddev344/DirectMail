@@ -1440,7 +1440,8 @@ ul.footer_ul_links li a {
 	color: #000;
 }
 ul.footer_ul_links li {
-    margin: 0 15px;
+	margin: 0 6px;
+
 }
 
 .slick-dots li button:before {
