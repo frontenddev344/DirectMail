@@ -252,6 +252,7 @@
         margin: 0 15px;
         border-radius: 24px;
         padding: 30px 0;
+        max-width:85%;
     }
     .research_suggestion h4 {
         font-size: 18px;
@@ -375,9 +376,9 @@
     padding-top: 30px;
 }
 .get_started.section {
-    border-radius: unset;
     margin-top: 20px;
     padding: 20px 0;
+    max-width:90%;
 }
 .dollar_saved h2 {
     padding: 0 20px;
