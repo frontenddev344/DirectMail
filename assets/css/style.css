@@ -678,14 +678,14 @@ li::marker {
     display: flex;
     align-items: center;
     padding: 30px;
-    justify-content: center;
-    flex-direction: column;
+    justify-content: space-between;
+    /* flex-direction: column; */
 }
 .btn_start.common_btn {
 	background: #1868FD;
 	color: #fff;
 	font-weight: 600;
-	padding: 20px 40px;
+	padding: 15px 35px;
 	transition: all 0.4s;
 }
 .btn_start.common_btn:hover {
@@ -696,22 +696,23 @@ color: #000;
 
 
 .left_started h2 {
-	font-size: 44px;
+	font-size: 40px;
     color: #fff;
     font-weight: 700;
 }
 .left_started h3 {
-    font-size: 24px;
+    font-size: 20px;
     color: #fff;
     margin: 0;
     font-weight: 400;
+	text-align: left;
 }
 
 .get_started.section {
     padding: 0;
 	margin: 0 auto !important;
     width: 100%;
-    max-width: 800px;
+	max-width: 850px;
 }
 ul.footer_ul {
 	text-align: center;

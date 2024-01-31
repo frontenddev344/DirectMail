@@ -261,7 +261,7 @@
         margin-bottom: 10px;
     }
     .right_started {
-        margin-top: 40px;
+        margin-top: 30px;
         text-align: center;
     }
     .get_started.section .row {
@@ -286,6 +286,9 @@
     }
     h3.we_make_mob {
         margin-bottom: 30px;
+    }
+    .left_started h3 {
+        text-align:center;
     }
 }
 
