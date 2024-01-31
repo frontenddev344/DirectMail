@@ -677,10 +677,10 @@ li::marker {
 .get_started.section .row {
     display: flex;
     align-items: center;
-	padding: 40px;
-	justify-content: space-around;
+    padding: 30px;
+    justify-content: center;
+    flex-direction: column;
 }
-
 .btn_start.common_btn {
 	background: #1868FD;
 	color: #fff;
@@ -709,9 +709,10 @@ color: #000;
 
 .get_started.section {
     padding: 0;
-    margin: 0 15px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 800px;
 }
-
 ul.footer_ul {
 	text-align: center;
 	display: flex;
@@ -838,8 +839,12 @@ p.copy_right_para {
 }
 .right_started {
     text-align: end;
+    margin-top: 35px;
+    margin-bottom: 25px;
 }
-
+.left_started {
+    text-align: center;
+}
 .slick-dots {
     margin: 0 auto;
     left: 0;
@@ -990,7 +995,6 @@ a.common_btn.demo_btn {
 .get_start_row {
     background-color: #000;
     border-radius: 24px;
-	max-width: 1290px;
 }
 
 .marketing_campaign.section h4 {
@@ -1453,9 +1457,7 @@ padding-top:60px;
     overflow: auto;
     width: 90%;
 }
-.new_container{
-	max-width: 1290px!important;
-}
+
 
   @media (min-width: 500px) {
 	#button {
