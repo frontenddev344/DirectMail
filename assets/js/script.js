@@ -22,7 +22,7 @@ $(document).ready(function () {
       arrows: true,
       dots: true,
       speed: 300,
-      infinite: true,
+      infinite: false,
       autoplaySpeed: 3000,
       autoplay: true,
       responsive: [
@@ -161,8 +161,8 @@ $(document).ready(function() {
    // Click event on the button with ID 'changeContentButton'
    $("#yearly_id").click(function() {
      // Change the content of the div with ID 'myDiv'
-     $("#business_price").html("$100<span>/ye</span>");
-     $("#Agency_price").html("$120<span>/ye</span>");
+     $("#business_price").html("$100<span>/yr</span>");
+     $("#Agency_price").html("$120<span>/yr</span>");
      
    });
  });
