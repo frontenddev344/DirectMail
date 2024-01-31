@@ -1457,6 +1457,9 @@ padding-top:60px;
     overflow: auto;
     width: 90%;
 }
+.we_make_desktop ._for_desktop {
+	cursor: pointer;
+}
 
 
   @media (min-width: 500px) {
