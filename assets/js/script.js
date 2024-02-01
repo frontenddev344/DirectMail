@@ -171,7 +171,7 @@ $(document).ready(function() {
    // Click event on the button with ID 'changeContentButton'
    $("#montly_id").click(function() {
      // Change the content of the div with ID 'myDiv'
-     $("#business_price").html("$99 <span>/mo</span>");
+     $("#business_price").html("$99<span>/mo</span>");
      $("#Agency_price").html("$399<span>/mo</span>");
    });
  });
