@@ -127,6 +127,11 @@
         display: flex;
         justify-content: center;
     }
+    .request_btn_each_section 
+    {
+        display: flex;
+        justify-content: center;
+    }
 }
 
 
@@ -290,6 +295,9 @@
     }
     .left_started h3 {
         text-align:center;
+    }
+    .request_btn_each_section{
+      margin-top: 15px 0;
     }
 }
 
