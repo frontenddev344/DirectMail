@@ -1462,7 +1462,10 @@ padding-top:60px;
 .we_make_desktop ._for_desktop {
 	cursor: pointer;
 }
-
+.heading_with_para .aicpa_img {
+    width: 100%;
+    max-width: 100px;
+}
 
   @media (min-width: 500px) {
 	#button {
