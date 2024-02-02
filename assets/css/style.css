@@ -1466,6 +1466,16 @@ padding-top:60px;
     width: 100%;
     max-width: 100px;
 }
+.request_btn_each_section {
+    margin-top: 30PX;
+}
+.request_btn_each_section a{
+	margin-bottom: 0;
+}
+.request_btn_each_section.automation_btn {
+    display: flex;
+    justify-content: center;
+}
 
   @media (min-width: 500px) {
 	#button {
