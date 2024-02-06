@@ -833,6 +833,7 @@ p.copy_right_para {
 }
 .right_choice h2 {
     margin-bottom: 40px;
+	text-transform:none;
 }
 .make_different h3 {
     margin-bottom: 40px;
